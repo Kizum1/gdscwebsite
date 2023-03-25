@@ -6,4 +6,4 @@ Google Developers Student Club website for Diablo Valley College Pleasant Hills
 
 Project Managers: Jay Chong, Christina Mullen
 
-Developers: TBD
+Developers: Mario, Rafael
