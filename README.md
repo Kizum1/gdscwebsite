@@ -1,7 +1,7 @@
 
 # GDSC Viking Hacks Website
 
-This is the official website of the Google Developers Student Club at Diablo Valley College. This is a club powered by Google Developers and it bridges the gap between theory and practice. You can more info on our (discord)[https://discord.gg/nxKfjYKFby] server.
+This is the official website of the Google Developers Student Club at Diablo Valley College. This is a club powered by Google Developers and it bridges the gap between theory and practice. You can more info on our [discord](https://discord.gg/nxKfjYKFby) server.
 
 
 ## Authors
