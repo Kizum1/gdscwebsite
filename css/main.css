@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Astro', sans-serif;
 }
 
 /* Header */
@@ -76,12 +76,66 @@ a {
 	border-radius: 5px;
 }
 
+/*
 .btn-ham-menu {
   width: 10%;
   position: absolute;
   right: 5px;
   top: 18px;
 }
+*/
+
+/* Hero section */
+.hero {
+  color: #fff;
+  width: 100vw;
+  height: 65vh;
+  background: linear-gradient(90deg, rgba(51,105,232,1) 25%, rgba(213,15,37,1) 50%, rgba(238,178,17,1) 75%, rgba(0,153,37,1) 100%);
+  position: relative;
+}
+.wrapper-hero-text {
+  position: absolute;
+  bottom: 75px;
+  left: 30px;
+  margin-right: 20px;
+}
+.title-hero {
+  font-size: 50px;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+.subtitle-hero {
+  font-weight: lighter;
+}
+
+/* About section */
+.wrapper-about-title {
+  display: flex; 
+  justify-content: left;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.icon-gdsc-about {
+  width: 10%;
+}
+.title-about {
+  font-weight: lighter;
+  margin-left: 30px
+}
+.paragraph-about {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-weight: lighter;
+}
+.img-club-members {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
 
 .footer {
   position: relative;
