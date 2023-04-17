@@ -250,9 +250,9 @@ a {
   .header {
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  max-width: 1150px;
+  
   }
   } 
 
