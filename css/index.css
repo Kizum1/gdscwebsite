@@ -116,32 +116,49 @@ a {
 }
 
 /* About section */
-.wrapper-about-title {
+
+.about {
   display: flex;
-  justify-content: left;
+  height: 80vh;
+}
+
+.about__column--left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 30px;
+  width: 40%;
+}
+
+.about__column--right {
+  display: flex;
   align-items: center;
-  margin-left: 30px;
-  margin-top: 20px;
+  width: 60%;
+  margin-right: 30px;
+}
+
+.wrapper-about-title {
+  justify-content: left;
+  text-align: center;
+  align-items: center;
 }
 .icon-gdsc-about {
-  width: 10%;
+  width: 25%;
 }
 .title-about {
-  font-weight: lighter;
-  margin-left: 30px;
+  font-weight: 700;
+  margin-top: -8px;
+  margin-bottom: 20px;
 }
 .paragraph-about {
-  margin-left: 30px;
-  margin-right: 30px;
   font-weight: lighter;
+  text-align: justify;
 }
 .img-club-members {
-  width: 90%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+  width: 100%;
 }
+
+/* Footer */
 
 .footer {
   /* position: relative; */
@@ -201,6 +218,8 @@ a {
   font-size: 1rem;
   font-weight: 300;
 }
+
+/* Different monitor sizes */
 
 @media screen and (min-width: 720px) {
   /* Header */
