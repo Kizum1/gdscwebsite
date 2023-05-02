@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -127,6 +126,7 @@ h2 {
 }
 h3 {
   margin-bottom: 5%;
+  font-style: italic;
 }
 .mission-statement {
   margin: 5%;
@@ -139,10 +139,41 @@ h3 {
 .article4 {
   margin: 7%;
 }
-.values-list {
-  list-style: decimal;
+.values-list-li {
+  list-style: none;;
 }
-
+#list-number {
+  font-weight: bold;
+  font-size: 200%;
+}
+.list-number1 {
+  color: #3369e8;
+}
+.list-number2 {
+  color: #D50F25;
+}
+.list-number3 {
+  color: #EEB211; 
+}
+.list-number4 {
+  color:  #009925
+}
+#list-title {
+  font-weight: bold;
+  font-size: 200%;
+}
+.list-title1 {
+  color: #3369e8;
+}
+.list-title2 {
+  color: #D50F25;
+}
+.list-title3 {
+  color: #EEB211
+}
+.list-title4 {
+  color: #009925;
+}
 
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------- */
@@ -301,6 +332,13 @@ h3 {
     height: 50%;
     margin: 10% 5% 5% 5%;
   }
+  .article3 {
+    font-size: 110%;
+    margin: 5% 5%;
+    -webkit-box-shadow: -3px 3px 28px 9px rgba(0,0,0,0.7);
+    -moz-box-shadow: -3px 3px 28px 9px rgba(0,0,0,0.7);
+    box-shadow: -3px 3px 28px 9px rgba(0,0,0,0.7);
+  }
 }
 
 @media (min-width: 1025px) {
@@ -335,7 +373,9 @@ h3 {
     height: 50%;
     margin: 10% 5% 5% 5%;
   }
-  
+  .article3 {
+    font-size: 130%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -365,5 +405,9 @@ h3 {
     width: 50%;
     height: 50%;
     margin: 10% 5% 5% 5%;
+  }
+  /* article 3 */
+  .article3 {
+    font-size: 130%;
   }
 }
