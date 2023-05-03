@@ -92,7 +92,7 @@ h1 {
   margin-top: 7%;
   font-weight: light;
   background: #3369e8;
-  background: linear-gradient(to right, #3369e8 20%, #D50F25 40%, #EEB211 60%, #009925 80%);
+  background: linear-gradient(to right, #4285f4 20%, #ea4335 40%, #fbbc05 60%, #34a853 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

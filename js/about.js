@@ -1,5 +1,5 @@
 // h1 animation 
-  document.addEventListener('DOMContentLoaded',function(event){
+  document.addEventListener('DOMContentLoaded',function(){
     // array with texts to type in typewriter
     var dataText = [ "Google Developer Student Club"];
     
