@@ -91,7 +91,7 @@ a {
 h1 {
   word-spacing: 0;
   text-align: center;
-  margin-top: 15%;
+  margin-top: 5%;
   font-weight: light;
   background: #3369e8;
   background: linear-gradient(to right, #4285f4 20%, #ea4335 40%, #fbbc05 60%, #34a853 80%);
@@ -175,6 +175,10 @@ h2 {
 /* Article 4 */
 .article4 {
   margin: 7%;
+  background-color: beige;
+  padding: 10% 10%;
+  border-radius: 20px;
+  border: 2px solid #000;
 }
 .values-title {
   margin-bottom: 2%;
@@ -276,6 +280,7 @@ h2 {
 @media screen and (min-width: 600px) {
   h1 {
     font-size: 250%;
+    margin-top: 15%;
   }
 }
 @media screen and (min-width: 720px) {
@@ -376,7 +381,7 @@ h2 {
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 950px) {
   .header {
     flex-direction: row;
     justify-content: space-between;
@@ -385,8 +390,18 @@ h2 {
     margin: 0;
   }
   h1 {
+    margin-top: 5%;
     font-size: 450%;
-    background-color: #000;
+  }
+  .main-header {
+    background-color: beige;
+    padding: 5%;
+    border-radius: 0 0 40px 40px;
+    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #000;
+    -webkit-box-shadow: 0px 11px 19px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 19px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 19px 5px rgba(0,0,0,0.75);
   }
   /* article 1*/
   .article1 {
