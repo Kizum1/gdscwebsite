@@ -7,6 +7,10 @@
   font-family: "Astro", sans-serif;
 }
 
+b {
+  font-weight: 900;
+}
+
 /* Header */
 body {
   line-height: 1.6;
@@ -82,7 +86,7 @@ a {
 
 .shape {
   z-index: -1;
-  position: fixed;
+  position: absolute;
   height: 100px;
 }
 
@@ -215,6 +219,8 @@ a {
 }
 .title-about {
   font-weight: 700;
+}
+.wrapper-about-title > .title-about {
   margin-top: -8px;
   margin-bottom: 20px;
 }
@@ -224,6 +230,77 @@ a {
 }
 .img-club-members {
   width: 100%;
+}
+
+/* Opportunities Section */
+
+.home__container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.opportunities {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.opportunities__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 24px 0;
+  gap: 32px;
+}
+.opportunities__list--item {
+  width: 40%;
+  list-style-type: initial;
+  font-weight: lighter;
+}
+
+/* Our Community */
+
+.our-community {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 56px; /* 24px from opp__list + 32px from opp = 56px total */
+}
+.our-community__box > .title-about {
+  text-align: center;
+}
+.our-community__box {
+  position: relative;
+  border: 0.5px solid;
+  padding: 16px;
+}
+.our-community__box::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 2px;
+  width: 100%;
+  transform: skew(45deg);
+  height: 5px;
+  background: linear-gradient(90.92deg,#4285f4 1.55%,#ea4335 48.21%,#fbbc05 100%,#34a853 100%);
+}
+.our-community__box::after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 2px;
+  width: 5px;
+  height: 101%;
+  transform: skewY(45deg);
+  background: linear-gradient(180deg,#34a853 0%,#4285f4 53.12%,#fbbc05 100%);
+}
+.our-community__list {
+  margin: 24px 0;
+}
+.our-community__list--item {
+  font-weight: lighter;
 }
 
 /* Footer */
@@ -244,7 +321,6 @@ a {
 }
 
 .social-icon {
-  /* position: relative; */
   display: flex;
   justify-content: center;
   align-items: center;
