@@ -145,11 +145,10 @@ a {
   line-height: 2.6;
 }
 
-.box:hover { flex: 1 1 50%; }
 .box:hover > img {
-  width: 100%;
-  height: 100%;
+  filter: blur(4px);
 }
+
 
 @media screen and (min-width: 720px) {
     /* Header */
@@ -204,3 +203,8 @@ a {
     }
   }
 
+  
+  
+  
+  
+  
