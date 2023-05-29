@@ -149,6 +149,9 @@ a {
   filter: blur(4px);
 }
 
+.box:hover .wrap {
+  opacity: 1;
+}
 
 @media screen and (min-width: 720px) {
     /* Header */
@@ -202,8 +205,22 @@ a {
       margin-right: 30px;
     }
   }
-
+  .wrap{
+    margin:0;
+    padding:0;
+    font-size:70px;
+    position:relative;
+    color:#ccc;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    bottom: 50%;
+    word-wrap: break-word;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
   
+
   
   
   
