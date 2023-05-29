@@ -1,28 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-}
-
 
 /* Page header */
-body {
-  line-height: 1.6;
-  margin: 0;
-  align-items: flex-end;
-  min-height: 100vh;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
 
+
+.titleheader {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	padding: 1.5em;
+	position: absolute;
+	top: 96%;
+	left: 58%;
+	width: 40em;
+	margin: 0 0 0 -20em;
+
+}
 .logo {
   width: 48px;
   height: auto;
@@ -119,6 +111,7 @@ a {
   padding: 4% 2%;
   box-sizing: border-box;
   height: 100vh;
+
 }
 
 .box {
