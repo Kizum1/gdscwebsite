@@ -107,7 +107,7 @@
 .containerOfficers {
   display: flex;
   width: 100%;
-  padding: 2%;
+  padding: 2% 4%;
   box-sizing: border-box;
   height: 100vh;
 
