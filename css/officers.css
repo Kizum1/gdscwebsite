@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 
 
-/* Page header */
 
 
 .titleheader {
@@ -108,7 +107,7 @@
 .containerOfficers {
   display: flex;
   width: 100%;
-  padding: 4% 2%;
+  padding: 2%;
   box-sizing: border-box;
   height: 100vh;
 
