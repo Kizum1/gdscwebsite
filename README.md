@@ -17,6 +17,9 @@ A special thanks to Spring 2023 cohort of the Google Developers Website Developm
 
 If you have any feedback, please reach out to any of the developers.
 
+## Optimizations
+
+Website is yet to be optimized for mobile. This will be completed soon
 
 ![Logo](https://synergyzer.com/wp-content/uploads/2020/07/Google.png)
 
