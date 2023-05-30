@@ -6,7 +6,7 @@ This is the official website of the Google Developers Student Club at Diablo Val
 
 ## Spring 2023 Development Team
 
-- Lead Developer [@Jay Chong](https://github.com/Kizum1)
+- Project Lead [@Jay Chong](https://github.com/Kizum1)
 - Co-Developer [@Rafael Mojica](https://github.com/rafmojica)
 - Co-Developer [@Mario Salinas](https://github.com/marioCoding)
 
